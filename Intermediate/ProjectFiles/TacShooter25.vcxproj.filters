@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TacShooter25.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{72EAF6F9-2581-46DB-AA94-2F325F231B04}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TacShooter25.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TacShooter25Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{37803AE1-234B-445D-A966-DAA4FE551EAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TacShooter25">
+      <UniqueIdentifier>{D47F7EAB-A982-4669-9E9C-97B32705DE09}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TacShooter25\TacShooter25.Build.cs">
+      <Filter>Source\TacShooter25</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TacShooter25\TacShooter25.cpp">
+      <Filter>Source\TacShooter25</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TacShooter25\TacShooter25.h">
+      <Filter>Source\TacShooter25</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TacShooter25\TacShooter25Character.cpp">
+      <Filter>Source\TacShooter25</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TacShooter25\TacShooter25Character.h">
+      <Filter>Source\TacShooter25</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TacShooter25\TacShooter25GameMode.cpp">
+      <Filter>Source\TacShooter25</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TacShooter25\TacShooter25GameMode.h">
+      <Filter>Source\TacShooter25</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TacShooter25\TacShooter25PlayerController.cpp">
+      <Filter>Source\TacShooter25</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TacShooter25\TacShooter25PlayerController.h">
+      <Filter>Source\TacShooter25</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

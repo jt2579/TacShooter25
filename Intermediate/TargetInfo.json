@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TacShooter25",
+			"Path": "H:\\Unreal Projects\\TacShooter25\\Source\\TacShooter25.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TacShooter25Editor",
+			"Path": "H:\\Unreal Projects\\TacShooter25\\Source\\TacShooter25Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

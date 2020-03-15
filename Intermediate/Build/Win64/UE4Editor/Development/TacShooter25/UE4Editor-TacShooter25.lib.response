@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TacShooter25.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"H:\Unreal Projects\TacShooter25\Intermediate\Build\Win64\TacShooter25Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"H:\Unreal Projects\TacShooter25\Intermediate\Build\Win64\UE4Editor\Development\TacShooter25\TacShooter25.cpp.obj"
+"H:\Unreal Projects\TacShooter25\Intermediate\Build\Win64\UE4Editor\Development\TacShooter25\TacShooter25Character.cpp.obj"
+"H:\Unreal Projects\TacShooter25\Intermediate\Build\Win64\UE4Editor\Development\TacShooter25\TacShooter25GameMode.cpp.obj"
+"H:\Unreal Projects\TacShooter25\Intermediate\Build\Win64\UE4Editor\Development\TacShooter25\TacShooter25PlayerController.cpp.obj"
+"H:\Unreal Projects\TacShooter25\Intermediate\Build\Win64\UE4Editor\Development\TacShooter25\TacShooter25.init.gen.cpp.obj"
+"H:\Unreal Projects\TacShooter25\Intermediate\Build\Win64\UE4Editor\Development\TacShooter25\TacShooter25Character.gen.cpp.obj"
+"H:\Unreal Projects\TacShooter25\Intermediate\Build\Win64\UE4Editor\Development\TacShooter25\TacShooter25GameMode.gen.cpp.obj"
+"H:\Unreal Projects\TacShooter25\Intermediate\Build\Win64\UE4Editor\Development\TacShooter25\TacShooter25PlayerController.gen.cpp.obj"
+"H:\Unreal Projects\TacShooter25\Intermediate\Build\Win64\UE4Editor\Development\TacShooter25\Default.rc2.res"
+/OUT:"H:\Unreal Projects\TacShooter25\Intermediate\Build\Win64\UE4Editor\Development\TacShooter25\UE4Editor-TacShooter25.lib"
+/INCLUDE:IMPLEMENT_MODULE_TacShooter25
