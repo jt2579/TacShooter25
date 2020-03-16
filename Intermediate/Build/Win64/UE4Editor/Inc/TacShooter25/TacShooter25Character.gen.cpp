@@ -39,6 +39,14 @@ void EmptyLinkFunctionForGeneratedCodeTacShooter25Character() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CursorToWorld;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CameraBoomOTS_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CameraBoomOTS;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OTSCameraComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OTSCameraComponent;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CameraBoom_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CameraBoom;
@@ -75,6 +83,28 @@ void EmptyLinkFunctionForGeneratedCodeTacShooter25Character() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATacShooter25Character_Statics::NewProp_CursorToWorld = { "CursorToWorld", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATacShooter25Character, CursorToWorld), Z_Construct_UClass_UDecalComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATacShooter25Character_Statics::NewProp_CursorToWorld_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATacShooter25Character_Statics::NewProp_CursorToWorld_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATacShooter25Character_Statics::NewProp_CameraBoomOTS_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Camera" },
+		{ "Comment", "/** Camera boom positioning the camera above the character */" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "TacShooter25Character.h" },
+		{ "ToolTip", "Camera boom positioning the camera above the character" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATacShooter25Character_Statics::NewProp_CameraBoomOTS = { "CameraBoomOTS", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATacShooter25Character, CameraBoomOTS), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATacShooter25Character_Statics::NewProp_CameraBoomOTS_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATacShooter25Character_Statics::NewProp_CameraBoomOTS_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATacShooter25Character_Statics::NewProp_OTSCameraComponent_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Camera" },
+		{ "Comment", "/** Top down camera */" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "TacShooter25Character.h" },
+		{ "ToolTip", "Top down camera" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATacShooter25Character_Statics::NewProp_OTSCameraComponent = { "OTSCameraComponent", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATacShooter25Character, OTSCameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATacShooter25Character_Statics::NewProp_OTSCameraComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATacShooter25Character_Statics::NewProp_OTSCameraComponent_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATacShooter25Character_Statics::NewProp_CameraBoom_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
@@ -98,6 +128,8 @@ void EmptyLinkFunctionForGeneratedCodeTacShooter25Character() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATacShooter25Character_Statics::NewProp_TopDownCameraComponent = { "TopDownCameraComponent", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATacShooter25Character, TopDownCameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATacShooter25Character_Statics::NewProp_TopDownCameraComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATacShooter25Character_Statics::NewProp_TopDownCameraComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATacShooter25Character_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATacShooter25Character_Statics::NewProp_CursorToWorld,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATacShooter25Character_Statics::NewProp_CameraBoomOTS,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATacShooter25Character_Statics::NewProp_OTSCameraComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATacShooter25Character_Statics::NewProp_CameraBoom,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATacShooter25Character_Statics::NewProp_TopDownCameraComponent,
 	};
@@ -128,7 +160,7 @@ void EmptyLinkFunctionForGeneratedCodeTacShooter25Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATacShooter25Character, 2459894239);
+	IMPLEMENT_CLASS(ATacShooter25Character, 1731509141);
 	template<> TACSHOOTER25_API UClass* StaticClass<ATacShooter25Character>()
 	{
 		return ATacShooter25Character::StaticClass();

@@ -10,6 +10,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Materials/Material.h"
+#include "kismet/GameplayStatics.h"
 #include "Engine/World.h"
 
 ATacShooter25Character::ATacShooter25Character()
@@ -55,6 +56,8 @@ ATacShooter25Character::ATacShooter25Character()
 	// Activate ticking in order to update the cursor every frame.
 	PrimaryActorTick.bCanEverTick = true;
 	PrimaryActorTick.bStartWithTickEnabled = true;
+
+	APlayerController* OurPlayer = UGameplayStatics::GetPlayerController(this, 0);
 }
 
 void ATacShooter25Character::Tick(float DeltaSeconds)
@@ -86,5 +89,51 @@ void ATacShooter25Character::Tick(float DeltaSeconds)
 			CursorToWorld->SetWorldLocation(TraceHitResult.Location);
 			CursorToWorld->SetWorldRotation(CursorR);
 		}
+	}
+}
+
+void ATacShooter25Character::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+{
+	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
+	PlayerInputComponent->BindAction("OTSCameraSwitch", IE_Released, this, &ATacShooter25Character::OTSCameraSwitch);
+}
+
+void ATacShooter25Character::SetSelected()
+{
+	CursorToWorld->SetVisibility(true);
+}
+
+void ATacShooter25Character::SetDeselected()
+{
+	CursorToWorld->SetVisibility(false);
+}
+
+void ATacShooter25Character::OTSCameraSwitch()
+{
+	if (!IsDirectlyCommanding)
+	{
+
+		/*
+		//TopDownCameraComponent->bUsePawnControlRotation = true;
+		CameraBoom->TargetArmLength = 400.f;
+		CameraBoom->bUsePawnControlRotation = false;
+		//CameraBoom->AddRelativeRotation = FRotator(60.f, 0.f, 0.f);
+		*/
+		TopDownCameraComponent->SetActive(false);
+		OTSCameraComponent->SetActive(true);
+		IsDirectlyCommanding = !IsDirectlyCommanding;
+	}
+	else
+	{
+		//TopDownCameraComponent->bUsePawnControlRotation = false;
+
+		/*
+		CameraBoom->TargetArmLength = 800.f;
+		//CameraBoom->AddRelativeRotation = FRotator(-60.f, 0.f, 0.f);
+		*/
+		OTSCameraComponent->SetActive(false);
+		TopDownCameraComponent->SetActive(true);
+		IsDirectlyCommanding = !IsDirectlyCommanding;
 	}
 }

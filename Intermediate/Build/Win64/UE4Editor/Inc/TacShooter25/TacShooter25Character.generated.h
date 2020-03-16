@@ -61,6 +61,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATacShooter25Character); \
 #define TacShooter25_Source_TacShooter25_TacShooter25Character_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__TopDownCameraComponent() { return STRUCT_OFFSET(ATacShooter25Character, TopDownCameraComponent); } \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(ATacShooter25Character, CameraBoom); } \
+	FORCEINLINE static uint32 __PPO__OTSCameraComponent() { return STRUCT_OFFSET(ATacShooter25Character, OTSCameraComponent); } \
+	FORCEINLINE static uint32 __PPO__CameraBoomOTS() { return STRUCT_OFFSET(ATacShooter25Character, CameraBoomOTS); } \
 	FORCEINLINE static uint32 __PPO__CursorToWorld() { return STRUCT_OFFSET(ATacShooter25Character, CursorToWorld); }
 
 

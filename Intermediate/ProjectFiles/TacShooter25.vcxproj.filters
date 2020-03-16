@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TacShooter25.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{72EAF6F9-2581-46DB-AA94-2F325F231B04}</UniqueIdentifier>
+      <UniqueIdentifier>{C5409F76-CFC2-4685-B6FD-8A294547C319}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TacShooter25.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\TacShooter25Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{37803AE1-234B-445D-A966-DAA4FE551EAB}</UniqueIdentifier>
+      <UniqueIdentifier>{B99E8927-2D80-4720-9407-FACE148F5B33}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TacShooter25">
-      <UniqueIdentifier>{D47F7EAB-A982-4669-9E9C-97B32705DE09}</UniqueIdentifier>
+      <UniqueIdentifier>{5BFAE0C9-5319-4950-A3C7-903A84FDA910}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TacShooter25\TacShooter25.Build.cs">
       <Filter>Source\TacShooter25</Filter>
@@ -58,6 +60,24 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\TacShooter25\TacShooter25PlayerController.h">
       <Filter>Source\TacShooter25</Filter>
+    </ClInclude>
+    <Filter Include="Source\TacShooter25\Private">
+      <UniqueIdentifier>{2D70CABE-73E3-4F1C-9A97-759F0C7E6413}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TacShooter25\Private\CommandController.cpp">
+      <Filter>Source\TacShooter25\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TacShooter25\Private\CommandHUD.cpp">
+      <Filter>Source\TacShooter25\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\TacShooter25\Public">
+      <UniqueIdentifier>{D9AFFAC6-9C72-47C0-9327-8EAE8483BF5D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TacShooter25\Public\CommandController.h">
+      <Filter>Source\TacShooter25\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TacShooter25\Public\CommandHUD.h">
+      <Filter>Source\TacShooter25\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
