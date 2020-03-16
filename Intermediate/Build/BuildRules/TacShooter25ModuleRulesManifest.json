@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"H:\\Unreal Projects\\TacShooter25\\Source\\TacShooter25\\TacShooter25.Build.cs",
-		"H:\\Unreal Projects\\TacShooter25\\Source\\TacShooter25.Target.cs",
-		"H:\\Unreal Projects\\TacShooter25\\Source\\TacShooter25Editor.Target.cs"
-	],
-	"EngineVersion": "4.25.0"
-}

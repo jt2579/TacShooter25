@@ -1,2 +1,0 @@
-H:\Unreal Projects\TacShooter25\Intermediate\Build\Win64\UE4Editor\Development\TacShooter25\Definitions.TacShooter25.h
-H:\Unreal Projects\TacShooter25\Source\TacShooter25\TacShooter25.h

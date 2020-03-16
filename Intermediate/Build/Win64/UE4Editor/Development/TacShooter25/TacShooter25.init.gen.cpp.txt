@@ -1,3 +1,0 @@
-H:\Unreal Projects\TacShooter25\Intermediate\Build\Win64\UE4Editor\Development\TacShooter25\Definitions.TacShooter25.h
-D:\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
